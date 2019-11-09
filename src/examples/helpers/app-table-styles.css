@@ -1,0 +1,42 @@
+.app-table{
+    border: 1px solid #ddd;
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.app-table th, td{
+    padding: 0 10px;
+    
+}
+
+.app-table tr {
+    width: 100%;
+}
+
+.app-table th{
+    font-size: 14px;
+    border-bottom: 1.5px solid #bbb;
+}
+
+.app-table td{
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.app-table tbody tr:nth-child(odd){
+    background-color: #eee;
+}
+
+.app-table td.title {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.app-table td.title-mid {
+    padding-top: 30px;
+}
+
+.app-table td.text {
+    padding-bottom: 10px;
+}
